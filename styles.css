@@ -1,0 +1,83 @@
+/* -----------------------------
+   Brand Variables
+--------------------------------*/
+:root {
+  --charcoal: #4A4A4A;
+  --ivory: #EDECE2;
+  --sage: #8A9B73;
+  --wine: #6B0F3A;
+  --border-soft: #D6D4C8;
+}
+
+/* -----------------------------
+   Base Layout
+--------------------------------*/
+body {
+  background-color: var(--ivory);
+  color: var(--charcoal);
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
+/* -----------------------------
+   Typography
+--------------------------------*/
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.3px;
+}
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--sage);
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+  border-left: 4px solid var(--wine);
+  padding-left: 12px;
+}
+
+p {
+  margin: 0.75rem 0 1rem;
+}
+
+/* -----------------------------
+   Metadata / Callouts
+--------------------------------*/
+.meta {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 2.5rem;
+}
+
+.meta span {
+  display: block;
+}
+
+/* -----------------------------
+   Lists
+--------------------------------*/
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+/* -----------------------------
+   Tables
